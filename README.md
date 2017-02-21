@@ -1,7 +1,5 @@
 # ArnaldoGunzi_CarNDAdvancedLaneFinding
 
-#Advanced Lane Line Finding in autonomous cars
-
 # Project 4 — Advanced Lane Line Finding, part of Udacity’s Self-Driving Car Nanodegree Program (www.udacity.com)
 
 In this project, the challenge is to create a improved lane finding algorithm, using computer vision techniques. The result must be something like this:
@@ -185,16 +183,22 @@ We can compose the output image with some other images, to form a diagnostic pan
 
 ![](https://cdn-images-1.medium.com/max/873/1*PoyvJtTTFJtlRcq8-r9KjQ.png)
 
-#Composition of images to final display
+a) Composition of images to final display
  img_out=np.zeros((576,1280,3), dtype=np.uint8)
 
 img_out[0:576,0:1024,:] =cv2.resize(img_merge,(1024,576))
- #b) Threshold
- img_out[0:288,1024:1280, 0] =cv2.resize(img_mag_thr*255,(256,288))
- img_out[0:288,1024:1280, 1] =cv2.resize(img_mag_thr*255,(256,288))
- img_out[0:288,1024:1280, 2] =cv2.resize(img_mag_thr*255,(256,288))
- #c)Birds eye view
- img_out[310:576,1024:1280,:] =cv2.resize(img_birds,(256,266))
+
+ b) Threshold
+
+img_out[0:288,1024:1280, 0] =cv2.resize(img_mag_thr*255,(256,288))
+
+img_out[0:288,1024:1280, 1] =cv2.resize(img_mag_thr*255,(256,288))
+
+img_out[0:288,1024:1280, 2] =cv2.resize(img_mag_thr*255,(256,288))
+
+c)Birds eye view
+img_out[310:576,1024:1280,:] =cv2.resize(img_birds,(256,266))
+
 
 One trick here. The threshold image has just one channel. So I fed it three ones, one for each color channel.
 
