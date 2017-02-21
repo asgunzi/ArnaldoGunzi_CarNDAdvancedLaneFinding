@@ -9,6 +9,7 @@ In this project, the challenge is to create a improved lane finding algorithm, u
 
 And here is a video illustrating the final result of the technique.
 ![](https://youtu.be/SF66ZpxIspo)
+https://youtu.be/SF66ZpxIspo
 
 This is the fourth project of the nanodegree. The second one heavily focused on computer vision, mainly using the opensource package OpenCV (Open Computer Vision). The two other projects used machine learning, with deep neural networks.
 This project has following steps
@@ -226,10 +227,11 @@ Of course, we can not use future images, it would be a non-causal model, useless
 Project video: good performance of this model.
 
 ![](https://youtu.be/SF66ZpxIspo)
+https://youtu.be/SF66ZpxIspo
 
 Challenge video: it didn’t perform so that well.
 
-![](https://youtu.be/r7458FjjIJk)
+https://youtu.be/r7458FjjIJk
 
 ## Reflexions and thoughts
 
