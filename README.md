@@ -2,6 +2,8 @@
 
 # Project 4 — Advanced Lane Line Finding, part of Udacity’s Self-Driving Car Nanodegree Program (www.udacity.com)
 
+(See this post on Medium: https://medium.com/@arnaldogunzi/advanced-lane-line-project-7635ddca1960)
+
 In this project, the challenge is to create a improved lane finding algorithm, using computer vision techniques. The result must be something like this:
 ![](https://cdn-images-1.medium.com/max/873/1*PoyvJtTTFJtlRcq8-r9KjQ.png)
 
