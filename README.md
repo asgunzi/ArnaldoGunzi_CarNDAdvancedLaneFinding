@@ -123,8 +123,11 @@ Then we divide the image in windows, and for each left and right window we find 
 The points inside the windows are stored.
 
 We then feed the numpy polyfit function to find the best second order polynomial to represent the lanes, as in image below.
-![](https://cdn-images-1.medium.com/max/873/1*TwWrV04yZuiRcyvVfcJCXA.jpeg)
-Image from Udacity tutorial
+![](https://cdn-images-1.medium.com/max/873/1*ZklBR5MCQCcKJNpjAAmO3A.jpeg)
+Example of fitting of lines
+
+![](https://cdn-images-1.medium.com/max/873/1*1mfCTbpHhbbwYYslzVn_qg.jpeg)
+Another example
 
 Input: birds eye view
 Output: curves of the lanes
@@ -232,6 +235,10 @@ https://youtu.be/SF66ZpxIspo
 Challenge video: it didn’t perform so that well.
 
 https://youtu.be/r7458FjjIJk
+
+A useful tip from my mentors. To process only the portion of video with problems, you can find a subclip of it
+
+clip1 = VideoFileClip("project_video.mp4").subclip(22,26) #From 22s to 26 s
 
 ## Reflexions and thoughts
 
