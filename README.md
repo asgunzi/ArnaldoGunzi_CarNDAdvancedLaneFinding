@@ -16,11 +16,17 @@ This is the fourth project of the nanodegree. The second one heavily focused on 
 This project has following steps
 
 1 Camera calibration
+
 2 Color and gradient threshold
+
 3 Birds eye view
+
 4 Lane detection and fit
+
 5 Curvature of lanes and vehicle position with respect to center
+
 6 Warp back and display information
+
 7 Sanity check
 
 8 Video
